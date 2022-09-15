@@ -31,7 +31,7 @@ const Nav = () => {
           <div className="sm:gap-4 sm:flex">
             <a
               className="px-5 py-2.5 text-sm font-medium text-white bg-primary rounded-xl shadow"
-              href="/"
+              href="google.com"
             >
               Join
             </a>
