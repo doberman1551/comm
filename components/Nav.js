@@ -7,7 +7,7 @@ const Nav = () => {
     <div className="flex items-center justify-between h-16">
       <div className="flex-1 md:flex md:items-center md:gap-12">
        
-      <Link className="block text-primary" href="/">
+    
           <span className="sr-only">Home</span>
           <svg
             className="h-8"
@@ -20,7 +20,7 @@ const Nav = () => {
               fill="currentColor"
             />
           </svg>
-        </Link>
+       
 
       </div>
 
@@ -40,9 +40,7 @@ const Nav = () => {
               <Link
                 className="px-5 py-2.5 text-sm font-medium text-gray-800 "
                 href="/"
-              >
-               About
-              </Link>
+              >About </Link>
             </div>
           </div>
 
