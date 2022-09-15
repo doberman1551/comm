@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Link from 'next/link'
 const Nav = () => {
   return (
 <header className="bg-white">
@@ -7,7 +7,7 @@ const Nav = () => {
     <div className="flex items-center justify-between h-16">
       <div className="flex-1 md:flex md:items-center md:gap-12">
        
-      <a className="block text-primary" href="/">
+      <Link className="block text-primary" href="/">
           <span className="sr-only">Home</span>
           <svg
             className="h-8"
@@ -20,7 +20,7 @@ const Nav = () => {
               fill="currentColor"
             />
           </svg>
-        </a>
+        </Link>
 
       </div>
 
@@ -37,12 +37,12 @@ const Nav = () => {
             </a>
 
             <div className="hidden sm:flex">
-              <a
+              <Link
                 className="px-5 py-2.5 text-sm font-medium text-gray-800 "
                 href="/"
               >
                About
-              </a>
+              </Link>
             </div>
           </div>
 
