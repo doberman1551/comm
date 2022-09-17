@@ -3,7 +3,7 @@ import Spline from '@splinetool/react-spline';
 
 const Hero = () => {
   return (
-    <div className="pt-24 pb-20 md:pt-0">
+    <div className="pt-24 pb-20 md:pt-0 dark:bg-white">
     <div className="container m-auto px-6 md:px-12 lg:px-6">
         <div className="lg:flex lg:items-center lg:gap-x-16">
             <div className="space-y-8 lg:w-7/12 ">
