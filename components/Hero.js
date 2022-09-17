@@ -8,7 +8,7 @@ const Hero = () => {
         <div className="lg:flex lg:items-center lg:gap-x-16">
             <div className="space-y-8 lg:w-7/12 ">
                 <h1 className=" font-bold  text-gray-900 text-4xl md:text-5xl">Reward your NFT communites</h1>
-                <h2 className=" text-2xl lg:text-3xl lg:w-11/12">
+                <h2 className=" text-2xl lg:text-3xl lg:w-11/12 text-slate-900 dark:text-slate-800">
                 Engage your holders by offering them deals from their favourite digital tools and products
                 </h2>
                 <div className="grid grid-cols-3 space-x-4 md:space-x-6 md:flex">

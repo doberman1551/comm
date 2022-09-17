@@ -2,7 +2,7 @@ import React from 'react'
 
 const Cta = () => {
   return (
-    <div className="bg-lightPink/[.36] py-24 w-full h-full">
+    <div className="bg-lightPink/[.36] py-24 w-full h-full dark:bg-lightPink/[.36]">
     <div className="container  m-auto px-6 md:px-12 lg:px-6">
  
                         <div className="flex justify-center ">

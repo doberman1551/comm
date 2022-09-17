@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/dist/client/image'
 const Benefits = () => {
   return (
-    <div className="bg-bg_image  bg-no-repeat opacity-90 pt-16 pb-0 w-full h-full">
+    <div className="bg-bg_image  bg-no-repeat opacity-90 pt-16 pb-0 w-full h-full dark:bg-bg_image">
     <div className="container  m-auto px-6 md:px-12 lg:px-6">
         <div className="flex justify-center">
         <h2 className="text-2xl font-bold lg:text-3xl"> Benefits</h2>
